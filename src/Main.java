@@ -28,8 +28,11 @@ public class Main {
                 System.out.println("Wine is great! ");
                 break;
             default:
-                System.out.println("Enjoy your beverage! ");
+                System.out.println("Wrong choice!");
                 break;
+        }
+        if (option <= 4) {
+            System.out.println("Enjoy your beverage! ");
         }
         scanner.close();
 
