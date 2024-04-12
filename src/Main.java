@@ -31,7 +31,7 @@ public class Main {
                 System.out.println("Enjoy your beverage! ");
                 break;
         }
-
+        scanner.close();
 
     }
 }
